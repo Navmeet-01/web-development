@@ -1,0 +1,28 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 23, 23);
+}
+
+.container {
+    height: 60vh;
+    width: 80vh;
+    border: solid black 2px;
+    border-radius: 5%;
+    margin-top: 150px;
+    background-color: rgb(192, 227, 173);
+    box-shadow: 5px 5px 30px lightblue;
+}
+
+.container:hover {
+    box-shadow: 5px 5px 30px rgb(168, 217, 89);
+}
+.color-box {
+    height: 30vh;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
